@@ -68,21 +68,7 @@ pub mod solution {
         }
         return (value1, value2);
     }
-    // pub fn solve1() -> Vec<i32> {
-    //     let contents = crate::fs::read_to_string("./inputs/day2").expect("Cannot read file");
-    //     return contents
-    //         .split("\n")
-    //         .into_iter()
-    //         .map(|comp| {
-    //             if comp != "" {
-    //                 let (opponent, you) = parse(String::from(comp));
-    //                 return decide(opponent, you);
-    //             } else {
-    //                 return 0;
-    //             }
-    //         })
-    //         .collect();
-    // }
+
     fn main<F: Fn(RPS, RPS) -> i32>(logix: F) -> i32 {
         let contents = crate::fs::read_to_string("./inputs/day2").expect("Cannot read file");
         return contents
