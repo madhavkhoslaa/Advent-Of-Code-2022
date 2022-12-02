@@ -83,7 +83,7 @@ pub mod solution {
     //         })
     //         .collect();
     // }
-    pub fn main<F: Fn(RPS, RPS) -> i32>(logix: F) -> i32 {
+    fn main<F: Fn(RPS, RPS) -> i32>(logix: F) -> i32 {
         let contents = crate::fs::read_to_string("./inputs/day2").expect("Cannot read file");
         return contents
             .split("\n")
