@@ -16,7 +16,7 @@ pub mod solution {
     }
 
     pub fn solve() -> i32 {
-        return main().into_iter().sum();
+        return main().into_iter().max().unwrap();
     }
 
     pub fn solve2() -> i32 {
