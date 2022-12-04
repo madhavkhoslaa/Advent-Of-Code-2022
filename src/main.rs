@@ -3,6 +3,7 @@ mod solutions;
 use solutions::day1::solution as day1_solution;
 use solutions::day2::solution as day2_solution;
 use solutions::day3::solution as day3_solution;
+use solutions::day4::solution as day4_solution;
 
 fn main() {
     println!(
@@ -15,5 +16,10 @@ fn main() {
         day2_solution::solve1(),
         day2_solution::solve2()
     );
-    println!("day 3 solution Part 1: {:?},  solution Part 2: {:?}", day3_solution::solve1(), day3_solution::solve2())
+    println!(
+        "day 3 solution Part 1: {:?},  solution Part 2: TODO",
+        day3_solution::solve1()
+        // day3_solution::solve2()
+    );
+    println!("Day4 part 1: {}", day4_solution::solve1());
 }
