@@ -1,3 +1,5 @@
+#[allow(dead_code)]
+
 pub mod solution {
 
     fn diff_char_calculator(substr1: String, substr2: String) -> usize {
