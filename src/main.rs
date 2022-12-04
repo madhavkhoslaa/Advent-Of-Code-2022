@@ -18,8 +18,11 @@ fn main() {
     );
     println!(
         "day 3 solution Part 1: {:?},  solution Part 2: TODO",
-        day3_solution::solve1()
-        // day3_solution::solve2()
+        day3_solution::solve1() // day3_solution::solve2()
     );
-    println!("Day4 part 1: {}", day4_solution::solve1());
+    println!(
+        "Day4 part 1: {}, Day4 part 2: {}",
+        day4_solution::solve1(),
+        day4_solution::solve2()
+    );
 }
